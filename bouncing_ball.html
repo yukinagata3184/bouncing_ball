@@ -1,0 +1,17 @@
+<!-- ボールが跳ねるアニメーションを描画するJavaScriptの呼び出しと枠線の描画を行うHTML -->
+<!-- HTML5ではDOCTYPEは大文字でも小文字でも可 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bouncing Ball</title>
+        <style type="text/css">
+            /* 外枠の線の太さを1px、色を黒にする */
+            #canvas {clear:both; border:1px solid #000000;}
+        </style>
+    </head>
+    <body>
+        <!-- canvas要素のid名をcanvasとし、描画領域の横幅を900px、高さを600pxと指定する -->
+        <canvas id="canvas" width="900" height="600"></canvas>
+        <script src="bouncing_ball.js"></script>
+    </body>
+</html>
