@@ -1,11 +1,11 @@
 // ボールが跳ねるアニメーションを描画するJavaScript
 
 // CanvasRenderingContext2Dのオブジェクト
-var context;
+let context;
 // x座標、y座標
-var x; var y;
+let x; let y;
 // x座標の変位dxピクセル、y座標の変位dyピクセル
-var dx = 2; var dy = 4;
+let dx = 2; let dy = 4;
 
 // 横幅WIDTHピクセル、高さHEIGHTピクセル HTMLと合わせる
 const WIDTH = 900; const HEIGHT = 600;
