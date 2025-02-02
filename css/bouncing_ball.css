@@ -1,0 +1,5 @@
+/* 外枠の線の太さを1px、色を黒にする */
+#canvas {
+    clear: both;
+    border: 1px solid #000000;
+}
